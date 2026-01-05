@@ -33,7 +33,7 @@ Hardware verification was conducted on three IBM Quantum 'Heron' processors. The
 > **Note:** *Job Duration includes queue time, runtime initialization, and network latency. Actual QPU execution time is estimated at <1 second per job.*
 
 ### Visual Analysis
-![VQE Benchmark Graph](vqe_benchmark_3_backends.png)
+![VQE Benchmark Graph](VQE.png)
 *The plot above demonstrates that the hardware results (colored markers) closely align with the simulator baseline (blue dots). The gap between the simulator and the exact classical line (gray) indicates that the primary limitation was the expressibility of the `EfficientSU2` ansatz, not hardware noise.*
 
 ## 🧠 Algorithmic Approach
